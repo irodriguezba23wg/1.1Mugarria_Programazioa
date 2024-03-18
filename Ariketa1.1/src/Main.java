@@ -52,7 +52,7 @@ public class Main {
 
         JPanel centerPanel = new JPanel(new GridLayout(2, 2));
 
-        ImageIcon icon = new ImageIcon("img/1Iker.jpg");
+        ImageIcon icon = new ImageIcon("1iker.jpg");
 
         JLabel label1 = new JLabel(icon);
         JLabel label2 = new JLabel(icon);
