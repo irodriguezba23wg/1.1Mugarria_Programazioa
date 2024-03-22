@@ -18,6 +18,11 @@ public class FileViwer {
         garbituBotoia = new JButton("Garbitu");
         itxiBotoia = new JButton("Itxi");
 
+        add(fitxategiComboBox);
+        add(garbituBotoia);
+        add(new JScrollPane(testuArea));
+        add(itxiBotoia);
+
 
 
     }
