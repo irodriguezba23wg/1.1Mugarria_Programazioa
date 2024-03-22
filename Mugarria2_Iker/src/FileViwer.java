@@ -13,6 +13,12 @@ public class FileViwer {
         setLeyout(new FlowLayout());
 
         String[] fitxategiak = {"python.txt" , "c.txt" , "java.txt"};
+        fitxategiComboBox = new JComboBox<>(fitxategiak);
+        testuArea = new JTextArea(15,30);
+        garbituBotoia = new JButton("Garbitu");
+        itxiBotoia = new JButton("Itxi");
+
+
 
     }
 
